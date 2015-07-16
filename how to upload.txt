@@ -1,0 +1,2 @@
+gcloud login: gcloud auth login
+command: appcfg.py -A eva-01-1001 update appengine-try-python-flask
