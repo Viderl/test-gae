@@ -1,0 +1,16 @@
+application: eva-01-1001
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: .*
+  script: DjangoWebProject1.wsgi.application
+  
+libraries:
+- name: django
+  version: 1.5
